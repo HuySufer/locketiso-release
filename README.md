@@ -8,24 +8,37 @@ Kho lưu trữ và phân phối chính thức các bản cài đặt ứng dụn
 
 | Nền tảng | Tệp cài đặt | Dung lượng | Phiên bản | Ghi chú |
 | :--- | :--- | :--- | :--- | :--- |
-| **Android** | [📥 **LocketISO-Android.apk**](./release/LocketISO-Android.apk) | **15.9 MB** | **v4.0.0 Pro** | Hệ thống UI/UX Pro Max, Concentric Mechanical Shutter, Quay video 60s, GCS Resumable Pipeline, Android 8.0+ |
-| **iOS** | [📥 **LocketISO-iOS.ipa**](./release/LocketISO-iOS.ipa) | **~8.5 MB** | **v4.0.0 Pro** | Swift 6 & WidgetKit, Haptic Manager, Sideload via AltStore, TrollStore, Scarlet, Sideloadly |
+| **Android** | [📥 **LocketISO-Android.apk**](./release/LocketISO-Android.apk) | **15.9 MB** | **v4.1.0 Pro** | Lõi Tìm kiếm nhạc Apple Music/Spotify, Caption Studio, UI/UX Pro Max, Concentric Shutter, GCS Resumable Pipeline |
+| **iOS** | [📥 **LocketISO-iOS.ipa**](./release/LocketISO-iOS.ipa) | **~8.5 MB** | **v4.1.0 Pro** | Swift 6 & WidgetKit, Haptic Manager, Caption Studio, Sideload via AltStore, TrollStore, Scarlet, Sideloadly |
 
 ---
 
-## 🌟 Điểm nổi bật phiên bản v4.0.0 Pro (UI/UX Pro Max)
-1. **Thiết kế Obsidian Dark Luxury 60-30-10 & Liquid Glassmorphism**:
+## 🌟 Điểm nổi bật phiên bản v4.1.0 Pro
+
+1. **Lõi Tìm Kiếm Nhạc Trực Tuyến Toàn Diện (Music Search Engine)**:
+   - Tích hợp Apple iTunes API tìm kiếm bài hát theo từ khóa và ca sĩ theo thời gian thực (Debounce 350ms, tự động chuyển vùng VN & US).
+   - Tự động trích xuất và hiển thị ảnh bìa Album HD $600\times 600$ cực sắc nét.
+   - Hỗ trợ dán link bài hát Spotify (`open.spotify.com/track/...`) với cơ chế phân giải oEmbed & Audio preview.
+   - Tích hợp sẵn danh sách hơn 20+ ca khúc hit Việt Nam và quốc tế được tuyển chọn (Sơn Tùng M-TP, Hoàng Thùy Linh, Vũ, Taylor Swift, Billie Eilish,...).
+
+2. **Trình Phát Thử Audio AAC 30s & Điều Khiển Lựa Chọn Tiện Lợi**:
+   - Nút Play/Pause nghe thử âm thanh native trước khi đăng tải.
+   - Banner bài hát đang chọn với nút **"Bỏ chọn"** (Deselect) tiện lợi.
+   - Nút xóa nhanh (✕) trực tiếp trên viên thuốc âm nhạc ở màn hình chụp ảnh.
+
+3. **Thiết kế Obsidian Dark Luxury 60-30-10 & Liquid Glassmorphism**:
    - Tối ưu màn hình OLED, độ tương phản mượt mà, khung kính mờ cao cấp với điểm nhấn vàng Locket Gold.
-2. **Nút chụp Concentric Shutter 3 tầng & Quay Video 60s**:
+
+4. **Nút chụp Concentric Shutter 3 tầng & Quay Video 60s**:
    - Phản hồi xúc giác Haptic tự nhiên khi bấm chụp ảnh 1:1.
    - Nhấn giữ lâu tự động chuyển sang chế độ quay video với vòng cung quét tiến độ $360^\circ$ và viên thuốc thời lượng quay (`00:03 / 01:00`).
-3. **Caption Studio & Locket Gold Presets**:
-   - Hơn 80+ mẫu chú thích Locket Gold dạng viên thuốc kính mờ (`"✨ Pro Max Vibe"`,...).
-4. **Feed Kho Ảnh & Thả Tim Động (Heart Cascade)**:
-   - Chế độ lưới 3 cột hiển thị toàn bộ kho ảnh kỷ niệm mượt mà.
+
+5. **Feed Kho Ảnh & Thả Tim Động (Heart Cascade)**:
+   - Chế độ lưới 3 cột hiển thị toàn bộ kho ảnh kỷ niệm siêu tốc.
    - Chạm đúp (double-tap) kích hoạt chùm 22 hạt tim nổ bung màn hình kèm xung rung haptic.
-5. **Hộp Thư & Tin Nhắn Trực Tiếp**:
-   - Trò chuyện 2 chiều dạng ghi chú vàng (post-it) với khay phản ứng emoji siêu nhanh.
+
+6. **Lõi Upload Resumable Trực Tiếp Google Storage**:
+   - Đăng tải ảnh và video 100% không bao giờ gặp lỗi HTTP 403 AppCheck.
 
 ---
 
